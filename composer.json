@@ -1,0 +1,29 @@
+{
+    "name": "azemat/filemanager-api",
+    "description": "php文件管理api",
+    "keywords": [
+        "变色龙",
+        "chameleon",
+        "文件管理",
+        "filemanager",
+        "azemat"
+    ],
+    "homepage": "http://www.lusuokeji.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azemat0110",
+            "email": "491863269@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "dingo/api": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azemat\\FileManagerAPI": "src"
+        }
+    }
+}
