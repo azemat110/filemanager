@@ -1,5 +1,5 @@
 {
-    "name": "azemat/filemanager-api",
+    "name": "azemat/filemanager",
     "description": "php文件管理api",
     "keywords": [
         "变色龙",
@@ -16,14 +16,14 @@
             "email": "491863269@qq.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "dingo/api": "*"
     },
     "autoload": {
         "psr-4": {
-            "Azemat\\FileManagerAPI": "src"
+            "Azemat\\FileManager\\": "src"
         }
     }
 }
